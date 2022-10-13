@@ -16,29 +16,42 @@ time-consuming but productive activity.
 **“Only Fully Developed Products are Tested”**: No doubt, testing 
 depends on the source code but reviewing requirements 
 and developing test cases is independent from the developed code. 
-However, iterative or incremental approaches to a development life cycle model may 
+However, iterative or incremental approaches to 
+a development life cycle model may 
 reduce the requirement of testing on the fully developed software.
-**“Complete Testing is Possible”**: It becomes an issue when a client or tester thinks that 
-complete testing is possible. It is possible that all paths have been tested by the 
+**“Complete Testing is Possible”**: It becomes an issue
+when a client or tester thinks that 
+complete testing is possible. It is possible that 
+all paths have been tested by the 
 team but occurrence of complete testing is never possible. 
-There might be some scenarios that are never executed by the test team or the client 
-during the software development life cycle and may be executed once the project has been deployed.
-**“A Tested Software is Bug-Free”**: No one can claim with absolute certainty that a software 
-application is 100% bug-free even if a tester with superb testing skills has tested the application.
+There might be some scenarios that are never
+executed by the test team or the client 
+during the software development life cycle 
+and may be executed once the project has been deployed.
+**“A Tested Software is Bug-Free”**: No one can claim with
+absolute certainty that a software 
+application is 100% bug-free even if a tester with
+superb testing skills has tested the application.
 **“Testers are Responsible for Quality of Product”**: It is a very 
 common misinterpretation that only testers or the testing team should be 
 responsible for product quality. Testers’ responsibilities include the 
-identification of bugs to the stakeholders and then it is their decision
-whether they will fix the bug or release the software. Releasing the software 
-at the time puts more pressure on the testers, as they will be blamed for any error.
+identification of bugs to the stakeholders and then
+it is their decision
+whether they will fix the bug or release the software. 
+Releasing the software 
+at the time puts more pressure on the testers, as 
+they will be blamed for any error.
 **“Test Automation should be used wherever possible to Reduce Time”**: Yes, it is true 
-that Test Automation reduces the testing time, but it is not possible to start test 
-automation at any time during software development. Test automaton should be started
+that Test Automation reduces the testing time, but it is not possible 
+to start test 
+automation at any time during software development. 
+Test automaton should be started
 when the software has been manually tested and is stable to some extent. 
 Moreover, test automation can never be used if requirements keep changing.
 
 ## Basic
-This standard deals with the following aspects to determine the quality of a software application:
+This standard deals with the following aspects to determine
+the quality of a software application:
 
 - Quality model
 - External metrics
@@ -56,7 +69,8 @@ This standard presents some set of quality attributes for any software such as:
 This is a type of black-box testing that is based on the specifications of the software
 that is to be tested. The application is tested by providing input and then the results are 
 examined that need to conform to the functionality it was intended for. Functional testing of a
-software is conducted on a complete, integrated system to evaluate the system’s compliance with its specified requirements.
+software is conducted on a complete, integrated system to evaluate the system’s
+compliance with its specified requirements.
 
 There are five steps that are involved while testing an application for functionality:
 
@@ -212,7 +226,8 @@ Speed (i.e. Response Time, data rendering and accessing)
 Capacity
 Stability
 Scalability
-Performance testing can be either qualitative or quantitative and can be divided into different sub-types such as Load testing and Stress testing.
+Performance testing can be either qualitative or quantitative and can be 
+divided into different sub-types such as Load testing and Stress testing.
 
 ## Load Testing
 
@@ -241,90 +256,162 @@ the load to the system and taking over the resources used by the
 software to identify the breaking point. This testing can be 
 performed by testing different scenarios such as:
 
-Shutdown or restart of network ports randomly
-Turning the database on or off
-Running different processes that consume resources such as CPU, memory, server, etc.
-Usability Testing
-Usability testing is a black-box technique and is used to identify any error(s) and improvements in the software by observing the users through their usage and operation.
+- Shutdown or restart of network ports randomly
+- Turning the database on or off
+- Running different processes that consume resources such as CPU, memory, server, etc.
 
-According to Nielsen, usability can be defined in terms of five factors, i.e. efficiency of use, learn-ability, memory-ability, errors/safety, and satisfaction. According to him, the usability of a product will be good and the system is usable if it possesses the above factors.
+## Usability Testing
 
-Nigel Bevan and Macleod considered that usability is the quality requirement that can be measured as the outcome of interactions with a computer system. This requirement can be fulfilled and the end-user will be satisfied if the intended goals are achieved effectively with the use of proper resources.
+Usability testing is a black-box technique and is used to identify 
+any error(s) and improvements in the software by observing the 
+users through their usage and operation.
 
-Molich in 2000 stated that a user-friendly system should fulfill the following five goals, i.e., easy to Learn, easy to remember, efficient to use, satisfactory to use, and easy to understand.
+According to Nielsen, usability can be defined in terms of five factors,
+i.e. efficiency of use, learn-ability, memory-ability, errors/safety, 
+and satisfaction. According to him, the usability of a product will
+be good and the system is usable if it possesses the above factors.
 
-In addition to the different definitions of usability, there are some standards and quality models and methods that define usability in the form of attributes and sub-attributes such as ISO-9126, ISO-9241-11, ISO-13407, and IEEE std.610.12, etc.
+Nigel Bevan and Macleod considered that usability is the 
+quality requirement that can be measured as the outcome 
+of interactions with a computer system. This requirement 
+can be fulfilled and the end-user will be satisfied if the 
+intended goals are achieved effectively with the use of proper resources.
 
-UI vs Usability Testing
-UI testing involves testing the Graphical User Interface of the Software. UI testing ensures that the GUI functions according to the requirements and tested in terms of color, alignment, size, and other properties.
+Molich in 2000 stated that a user-friendly system should fulfill
+the following five goals, i.e., easy to Learn, easy to remember,
+efficient to use, satisfactory to use, and easy to understand.
 
-On the other hand, usability testing ensures a good and user-friendly GUI that can be easily handled. UI testing can be considered as a sub-part of usability testing.
+In addition to the different definitions of usability, 
+there are some standards and quality models and methods 
+that define usability in the form of attributes and 
+sub-attributes such as ISO-9126, ISO-9241-11, ISO-13407, and IEEE std.610.12, etc.
 
-Security Testing
-Security testing involves testing a software in order to identify any flaws and gaps from security and vulnerability point of view. Listed below are the main aspects that security testing should ensure:
+## UI vs Usability Testing
 
-Confidentiality
-Integrity
-Authentication
-Availability
-Authorization
-Non-repudiation
-Software is secure against known and unknown vulnerabilities
-Software data is secure
-Software is according to all security regulations
-Input checking and validation
-SQL insertion attacks
-Injection flaws
-Session management issues
-Cross-site scripting attacks
-Buffer overflows vulnerabilities
-Directory traversal attacks
-Portability Testing
-Portability testing includes testing a software with the aim to ensure its reusability and that it can be moved from another software as well. Following are the strategies that can be used for portability testing:
+UI testing involves testing the Graphical User Interface 
+of the Software. UI testing ensures that the GUI functions
+according to the requirements and tested in terms of color, 
+alignment, size, and other properties.
 
-Transferring an installed software from one computer to another.
-Building executable (.exe) to run the software on different platforms.
-Portability testing can be considered as one of the sub-parts of system testing, as this testing type includes overall testing of a software with respect to its usage over different environments. Computer hardware, operating systems, and browsers are the major focus of portability testing. Some of the pre-conditions for portability testing are as follows:
+On the other hand, usability testing ensures a good and 
+user-friendly GUI that can be easily handled. UI testing 
+can be considered as a sub-part of usability testing.
 
-Software should be designed and coded, keeping in mind the portability requirements.
-Unit testing has been performed on the associated components.
-Integration testing has been performed.
-Test environment has been established.
-Test Plan
-A test plan outlines the strategy that will be used to test an application, the resources that will be used, the test environment in which testing will be performed, and the limitations of the testing and the schedule of testing activities. Typically the Quality Assurance Team Lead will be responsible for writing a Test Plan.
+## Security Testing
+
+Security testing involves testing a software in 
+order to identify any flaws and gaps from security 
+and vulnerability point of view. Listed below are 
+the main aspects that security testing should ensure:
+
+- Confidentiality
+- Integrity
+- Authentication
+- Availability
+- Authorization
+- Non-repudiation
+- Software is secure against known and unknown vulnerabilities
+- Software data is secure
+- Software is according to all security regulations
+- Input checking and validation
+- SQL insertion attacks
+- Injection flaws
+- Session management issues
+- Cross-site scripting attacks
+- Buffer overflows vulnerabilities
+- Directory traversal attacks
+
+## Portability Testing
+
+Portability testing includes testing a software
+with the aim to ensure its reusability and that it
+can be moved from another software as well. 
+Following are the strategies that can be used for portability testing:
+
+- Transferring an installed software from one computer to another.
+- Building executable (.exe) to run the software on different platforms.
+
+Portability testing can be considered as one of the 
+sub-parts of system testing, as this testing type 
+includes overall testing of a software with respect 
+to its usage over different environments. 
+Computer hardware, operating systems, and browsers
+are the major focus of portability testing. 
+Some of the pre-conditions for portability 
+testing are as follows:
+
+- Software should be designed and coded, keeping in mind the portability requirements.
+- Unit testing has been performed on the associated components.
+- Integration testing has been performed.
+- Test environment has been established.
+
+## Test Plan
+
+A test plan outlines the strategy that will be used 
+to test an application, the resources that will be 
+used, the test environment in which testing will be
+performed, and the limitations of the testing and 
+the schedule of testing activities. Typically the 
+Quality Assurance Team Lead will be responsible for 
+writing a Test Plan.
 
 A test plan includes the following:
 
-Introduction to the Test Plan document
-Assumptions while testing the application
-List of test cases included in testing the application
-List of features to be tested
-What sort of approach to use while testing the software
-List of deliverables that need to be tested
-The resources allocated for testing the application
-Any risks involved during the testing process
-A schedule of tasks and milestones to be achieved
-Test Scenario
-It is a one line statement that notifies what area in the application will be tested. Test scenarios are used to ensure that all process flows are tested from end to end. A particular area of an application can have as little as one test scenario to a few hundred scenarios depending on the magnitude and complexity of the application.
+- Introduction to the Test Plan document
+- Assumptions while testing the application
+- List of test cases included in testing the application
+- List of features to be tested
+- What sort of approach to use while testing the software
+- List of deliverables that need to be tested
+- The resources allocated for testing the application
+- Any risks involved during the testing process
+- A schedule of tasks and milestones to be achieved
 
-The terms ‘test scenario’ and ‘test cases’ are used interchangeably, however a test scenario has several steps, whereas a test case has a single step. Viewed from this perspective, test scenarios are test cases, but they include several test cases and the sequence that they should be executed. Apart from this, each test is dependent on the output from the previous test.
+## Test Scenario
 
-Test Case
-Test cases involve a set of steps, conditions, and inputs that can be used while performing testing tasks. The main intent of this activity is to ensure whether a software passes or fails in terms of its functionality and other aspects. There are many types of test cases such as functional, negative, error, logical test cases, physical test cases, UI test cases, etc.
+It is a one line statement that notifies what area in 
+the application will be tested. Test scenarios are used
+to ensure that all process flows are tested from end
+to end. A particular area of an application can have
+as little as one test scenario to a few hundred scenarios
+depending on the magnitude and complexity of the application.
 
-Furthermore, test cases are written to keep track of the testing coverage of a software. Generally, there are no formal templates that can be used during test case writing. However, the following components are always available and included in every test case:
+The terms ‘test scenario’ and ‘test cases’ are used interchangeably,
+however a test scenario has several steps, whereas a test case has
+a single step. Viewed from this perspective, test scenarios are test 
+cases, but they include several test cases and the sequence that 
+they should be executed. Apart from this, each test is dependent 
+on the output from the previous test.
 
-Test case ID
-Product module
-Product version
-Revision history
-Purpose
-Assumptions
-Pre-conditions
-Steps
-Expected outcome
-Actual outcome
-Post-conditions
-Many test cases can be derived from a single test scenario. In addition, sometimes multiple test cases are written for a single software which are collectively known as test suites.
+## Test Case
 
-Copyright © 2022 ALX, All rights reserved.
+Test cases involve a set of steps, conditions, and inputs that can
+be used while performing testing tasks. The main intent of 
+this activity is to ensure whether a software passes or 
+fails in terms of its functionality and other aspects. 
+There are many types of test cases such as functional,
+negative, error, logical test cases, physical test cases,
+UI test cases, etc.
+
+Furthermore, test cases are written to keep track of the testing
+coverage of a software. Generally, there are no formal templates
+that can be used during test case writing. However, the
+following components are always available and included in every test case:
+
+- Test case ID
+- Product module
+- Product version
+- Revision history
+- Purpose
+- Assumptions
+- Pre-conditions
+- Steps
+- Expected outcome
+- Actual outcome
+- Post-conditions
+
+Many test cases can be derived from a single test scenario. 
+In addition, sometimes multiple test cases are written for 
+a single software which are collectively known as test suites.
+
+
