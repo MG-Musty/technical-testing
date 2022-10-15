@@ -1,24 +1,29 @@
 
-# Never forget a test
+# :books: Never forget a test :pen:
+
 > Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not. Testing is executing a system in order to identify any gaps, errors, or missing requirements contrary to the actual requirements. This tutorial will give you a basic understanding of software testing, its types, methods, levels, and other related terminologies.
 
 > Code that is not tested can’t be trusted
 
 ## Bad reputation
+
 **“Testing is Too Expensive”**: Pay less for testing during software development 
 => pay more for maintenance or correction later. 
 Early testing saves both time and cost in many aspects. 
 However, reducing the cost without testing may result in 
 improper design of a software application, rendering the product useless.
+
 **“Testing is Time-Consuming”**: Testing is never a time-consuming process. 
 However diagnosing and fixing the errors identified during proper testing is a 
 time-consuming but productive activity.
+
 **“Only Fully Developed Products are Tested”**: No doubt, testing 
 depends on the source code but reviewing requirements 
 and developing test cases is independent from the developed code. 
 However, iterative or incremental approaches to 
 a development life cycle model may 
 reduce the requirement of testing on the fully developed software.
+
 **“Complete Testing is Possible”**: It becomes an issue
 when a client or tester thinks that 
 complete testing is possible. It is possible that 
@@ -28,10 +33,12 @@ There might be some scenarios that are never
 executed by the test team or the client 
 during the software development life cycle 
 and may be executed once the project has been deployed.
+
 **“A Tested Software is Bug-Free”**: No one can claim with
 absolute certainty that a software 
 application is 100% bug-free even if a tester with
 superb testing skills has tested the application.
+
 **“Testers are Responsible for Quality of Product”**: It is a very 
 common misinterpretation that only testers or the testing team should be 
 responsible for product quality. Testers’ responsibilities include the 
@@ -41,6 +48,7 @@ whether they will fix the bug or release the software.
 Releasing the software 
 at the time puts more pressure on the testers, as 
 they will be blamed for any error.
+
 **“Test Automation should be used wherever possible to Reduce Time”**: Yes, it is true 
 that Test Automation reduces the testing time, but it is not possible 
 to start test 
@@ -50,6 +58,7 @@ when the software has been manually tested and is stable to some extent.
 Moreover, test automation can never be used if requirements keep changing.
 
 ## Basic
+
 This standard deals with the following aspects to determine
 the quality of a software application:
 
@@ -65,7 +74,9 @@ This standard presents some set of quality attributes for any software such as:
 - Efficiency
 - Maintainability
 - Portability
+
 ## Functional Testing
+
 This is a type of black-box testing that is based on the specifications of the software
 that is to be tested. The application is tested by providing input and then the results are 
 examined that need to conform to the functionality it was intended for. Functional testing of a
@@ -85,6 +96,7 @@ every organization and hence it will make sure that the organization maintains t
 standards when it comes to software quality.
 
 ## Unit Testing
+
 This type of testing is performed by developers before the setup is handed over to the testing 
 team to formally execute the test cases. Unit testing is performed by the respective developers 
 on the individual units of source code assigned areas. The developers use test data that is
@@ -117,6 +129,7 @@ followed by top-down testing. The process concludes with multiple tests of the c
 preferably in scenarios designed to mimic actual situations.
 
 ## System Testing
+
 System testing tests the system as a whole. Once all the components are integrated, 
 the application as a whole is tested rigorously to see that it meets 
 the specified Quality Standards. This type of testing is performed by a specialized testing team.
@@ -209,6 +222,7 @@ nonfunctional in nature but important such as performance, security, user interf
 Some of the important and commonly used non-functional testing types are discussed below.
 
 ## Performance Testing
+
 It is mostly used to identify any bottlenecks or performance issues rather than 
 finding bugs in a software. There are different causes that contribute in
 lowering the performance of a software:
